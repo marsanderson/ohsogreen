@@ -1,6 +1,6 @@
 :root{
-  --mainBlue:#2a2a72;
-  --lightBlue:#009ffd;
+  --mainGreen:#006400;
+  --lightGreen:#3adf00;
   --mainWhite:#f3f3f3;
   --mainDark:#232528;
   --mainYellow: #ffa400;
@@ -13,17 +13,17 @@ body{
 }
 
 .text-title{
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Allura', cursive;
   letter-spacing: 0.3rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .text-blue{
-  color: var(--mainBlue);
+  color: var(--mainGreen);
 }
 
 .text-bright{
-  color: var(--lightBlue);
+  color: var(--lightGreen);
 }
 
 .btn-black{

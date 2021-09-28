@@ -7,6 +7,10 @@ import {ProductProvider} from './context';
 import reportWebVitals from './reportWebVitals';
 // import * as serviceWorker from "./serviceWorker";
 
+
+
+// export { default as Footer } from "./Footer";
+
 ReactDOM.render(
   <ProductProvider>
   <Router>

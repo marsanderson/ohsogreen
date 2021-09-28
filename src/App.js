@@ -3,6 +3,8 @@ import {Switch,Route} from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Footer from './components/Footer';
 import ProductList from './components/ProductList';
 import Details from './components/Details';
 import Cart from './components/Cart';
@@ -16,11 +18,14 @@ class App extends Component {
         <Navbar></Navbar>
         <Switch>
           <Route exact path="/" component={ProductList}></Route>
+          <Route exact path="/home" component={Home}></Route>
           <Route path="/details" component={Details}></Route>
           <Route path="/cart" component={Cart}></Route>
           <Route component={Default}></Route>
         </Switch>
+        <Footer></Footer>
         <Modal></Modal>
+        
       </React.Fragment>
     );
   }

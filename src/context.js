@@ -133,7 +133,7 @@ return {products:tempProducts};
         let subTotal = 0;
         this.state.cart.map(item =>(subTotal += item.total));
         // you can adjust the tax on the line below. This is multiplying 10% tax
-        const tempTax = subTotal * 0.1;
+        const tempTax = subTotal * 0.07;
         const tax = parseFloat(tempTax.toFixed(2));
         const total = subTotal + tax;
         this.setState(()=>{

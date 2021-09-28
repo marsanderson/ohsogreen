@@ -12,9 +12,12 @@ export default class Navbar extends Component {
             Creative Commons (Attribution 3.0 Unported);
             https://www.iconfinder.com/Makoto_msk */}
 
-            <Link to='/'>
-                <img src={logo} alt="store" className="navbar-brand"/>
-            </Link>
+                    <Link className="nav-link" to='/home'>Home
+                        {/* <img src={logo} alt="store" className="navbar-brand"/> */}
+                        {/* I comment this out to gt rid of the phone logo. */}
+                        <span className="sr-only">(current)</span>
+                    </Link>
+             
             <ul className="navbar-nav align-items-center">
                 <li className="nav-item ml-5">
                     <Link to="/" className="nav-link">
@@ -22,6 +25,22 @@ export default class Navbar extends Component {
                     </Link>
                 </li>
             </ul>
+
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+            
+            <ul className="navbar-nav">
+                <li className="nav-item text-title">
+                <h1>Oh So Green!</h1>
+                </li>
+            </ul>
+            
             <Link to="/cart" className="ms-auto">
                 <ButtonContainer>
                     <span className="mr-2">
@@ -31,15 +50,21 @@ export default class Navbar extends Component {
                 </ButtonContainer>
             </Link>
             </NavWrapper>
+
+
         )
     }
 }
 
 const NavWrapper = styled.nav`
-background:var(--mainBlue);
+background:var(--mainGreen);
 .nav-link{
     color:var(--mainWhite)!important;
     font-size:1.3rem;
     text-transform:capitalize;
+}
+.nav-item{
+    color:var(--mainWhite)!important;
+    font-size:1.3rem;
 }
 `;
