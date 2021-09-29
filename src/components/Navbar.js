@@ -12,7 +12,7 @@ export default class Navbar extends Component {
             Creative Commons (Attribution 3.0 Unported);
             https://www.iconfinder.com/Makoto_msk */}
 
-                    <Link className="nav-link" to='/home'>Home
+                    <Link className="nav-link" to='/'>Home
                         {/* <img src={logo} alt="store" className="navbar-brand"/> */}
                         {/* I comment this out to gt rid of the phone logo. */}
                         <span className="sr-only">(current)</span>
@@ -20,7 +20,7 @@ export default class Navbar extends Component {
              
             <ul className="navbar-nav align-items-center">
                 <li className="nav-item ml-5">
-                    <Link to="/" className="nav-link">
+                    <Link to="/productlist" className="nav-link">
                         Products
                     </Link>
                 </li>
