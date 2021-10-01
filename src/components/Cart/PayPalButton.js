@@ -7,7 +7,7 @@ export default class MyApp extends React.Component {
             // Congratulation, it came here means everything's fine!
             		console.log("The payment was successful!", payment);
                     this.props.clearCart();
-                    this.props.history.push('/');
+                    this.props.history.push('/emptycart');
             		// You can bind the "payment" object's value to your state or props or whatever here, please see below for sample returned data
         }
  
@@ -31,7 +31,6 @@ export default class MyApp extends React.Component {
  
         const client = {
             sandbox:    process.env.REACT_APP_APP_ID,
-            // sandbox:    "AYImD41QncRkqmiPYaGQxMjvYbUE5duU8G3vimZfnuEpjONhkhCUv0DLycbiwS0TzvMoBd1zb6t-RK-u",
             // production: "YOUR-PRODUCTION-APP-ID",
             production: process.env.REACT_APP_APP_ID,
         }
