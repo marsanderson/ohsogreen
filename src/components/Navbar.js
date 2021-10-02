@@ -25,20 +25,17 @@ export default class Navbar extends Component {
                     </Link>
                 </li>
             </ul>
-
-<ul></ul>
-<ul></ul>
-<ul></ul>
-<ul></ul>
-<ul></ul>
-<ul></ul>
-<ul></ul>
-<ul></ul>
+            <ul></ul>
+            <ul></ul>
+            <ul></ul>
+            <ul></ul>
+            <ul></ul>
+            <ul></ul>
+            <ul></ul>
+            <ul></ul>
             
             <ul className="navbar-nav">
-                <li className="nav-item text-title">
-                <h1>Oh So Green!</h1>
-                </li>
+                <li className="nav-item text-title">Oh So Green!</li>
             </ul>
             
             <Link to="/cart" className="ms-auto">
@@ -65,6 +62,6 @@ background:var(--mainGreen);
 }
 .nav-item{
     color:var(--mainWhite)!important;
-    font-size:1.3rem;
+    font-size:2rem;
 }
 `;
