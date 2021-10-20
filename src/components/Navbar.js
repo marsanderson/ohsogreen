@@ -19,25 +19,26 @@ export default class Navbar extends Component {
                     </Link>
              
             <ul className="navbar-nav align-items-center">
-                <li className="nav-item ml-5">
+                <li className="nav-item">
                     <Link to="/productlist" className="nav-link">
                         Products
                     </Link>
                 </li>
-            </ul>
-            <ul></ul>
-            <ul></ul>
-            <ul></ul>
-            <ul></ul>
-            <ul></ul>
-            <ul></ul>
-            <ul></ul>
-            <ul></ul>
-            
-            <ul className="navbar-nav">
-                <li className="nav-item text-title">Oh So Green!</li>
+
+                <Link className="nav-link" to='./Blog'>Blog
+                        <span className="sr-only">(current)</span>
+                    </Link>
+
+                <Link className="nav-link" to='./About'>About Me
+                        <span className="sr-only">(current)</span>
+                    </Link>
+
             </ul>
             
+            <ul className="navbar-nav mx-auto">
+                <span className="nav-item text-title">Oh So Green!</span>
+            </ul>
+        
             <Link to="/cart" className="ms-auto">
                 <ButtonContainer>
                     <span className="mr-2">

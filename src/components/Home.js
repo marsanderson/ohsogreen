@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
 
-// export { default as Home } from "./Home";
-
 export default class Home extends Component {
     render() {
         return(
 
-// function Home() {
-//   return (
     <div className="home">
       <div className="container">
         <div className="row align-items-center my-5">
@@ -19,7 +15,9 @@ export default class Home extends Component {
             />
           </div>
           <div className="col-lg-5">
-            <h1 className="col-10 mx-auto text-center text-title">Welcome to the Oh So Green Experience!</h1>
+            <h1 className="col-10 mx-auto text-center text-title">Welcome to the</h1>
+            <h1 className="col-10 mx-auto text-center text-title">Oh So Green Experience!</h1>
+
             <p className="h5">
             Oh So Green is a home based company that specifically caters 
             to creating products using specific Essential Oils, natural 
@@ -35,4 +33,3 @@ export default class Home extends Component {
   );
 };
 }
-// export default Home;
