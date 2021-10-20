@@ -29,10 +29,10 @@ export default class About extends Component {
             Herbal Apothecary Store, to share my creations with the world. Oh So Green is committed to offering 
             the best natural and creative ways to help provide serenity for you and your home.
             </p>
-            <h2 className="col-10 mx-auto text-center text-title">“……because YOUR home and YOUR vessel is 
-            YOUR Sanctuary and it should always feel like the most peaceful, beautiful, and high vibrational 
-            place on earth.” ~Nekita</h2>
-            <h2 className="col-10 mx-auto text-center"> ~Nekita</h2>
+            <h5 className="mt-5">“…because YOUR home and YOUR vessel is 
+            YOUR Sanctuary and it should always feel like the most peaceful, beautiful, and 
+            high vibrational place on earth.”</h5>
+            <h5 className="col-10 mx-auto text-center text-title"> ~Nekita</h5>
           </div>
         </div>
       </div>
