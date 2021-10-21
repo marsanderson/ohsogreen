@@ -22,7 +22,7 @@ const ListBlogs = () => {
 
     const getBlogs = async () => {
         try {
-            const response = await fetch("http://localhost:5000/blogs");
+            const response = await fetch("https://oh-so-green.netlify.app/Blog");
             const jsonData = await response.json();
 
            setBlogs(jsonData);
