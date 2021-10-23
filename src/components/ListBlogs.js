@@ -9,7 +9,7 @@ const ListBlogs = () => {
     //delete blog function
     const deleteBlog = async (id) => {
         try {
-    const deleteBlog = await fetch(`http://localhost:5000/blogs/${id}`, {
+    const deleteBlog = await fetch(`https://oh-so-green.netlify.app/5000/Blog${id}`, {
         method: "DELETE"
     });
     
@@ -22,7 +22,7 @@ const ListBlogs = () => {
 
     const getBlogs = async () => {
         try {
-            const response = await fetch("https://oh-so-green.netlify.app/Blog");
+            const response = await fetch("https://oh-so-green.netlify.app/5000/Blog");
             const jsonData = await response.json();
 
            setBlogs(jsonData);

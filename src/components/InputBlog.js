@@ -9,7 +9,7 @@ const InputBlog = () => {
         e.preventDefault();
         try {
             const body = {description};
-            const response = await fetch("https://oh-so-green.netlify.app/Blog", {
+            const response = await fetch("https://oh-so-green.netlify.app/5000/Blog", {
                 method: "POST",
                 headers: {"Content-Type": "application/json"},
                 body: JSON.stringify(body)
